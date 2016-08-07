@@ -1,0 +1,38 @@
+h1{color: orange;text-align: right;}
+h2{color:blue;}
+h2:first-child{color: orange;}
+p{font-size: 21px;}
+p:first-letter{color: red;font-weight: bold;font-size: 36px;}
+span{background: green;color: white;font-style: italic;}
+ul li ol li{color:gray;}
+ul li:last-child li{color:red;}
+.list ul:last-child li:first-child ol li{color: green;}
+
+td{
+    background: green;
+    color:white;
+    text-align: center;
+}
+table tr:first-child td,
+table tr.lesson td{
+    background: #fff;
+    color:#000;
+    font-weight: bold;
+}
+tr td:first-child{
+    color:orange;
+    background: #fff;
+    text-align: left;
+}
+
+:link{color:#f70;font-size: 24px;}
+:link[href$="html"]{color:blue;}
+:link[href^="https://www.google.com.ua"]{color:#666;}
+:link[target="_blank"]:after{
+    content: "";
+    background: url("https://maxcdn.icons8.com/Android_L/PNG/24/Objects/rocket-24.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}

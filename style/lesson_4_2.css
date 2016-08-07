@@ -1,0 +1,47 @@
+html{height: 100%;}
+body{
+    font-size: 16px;
+    margin:0;
+    padding: 20px;
+    background: #efe;
+}
+.paranja{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    background:#666;
+    opacity: .7;
+}
+.window{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    width: 300px;
+    height: 50px;
+    border:1px solid #999;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+span.close{
+    position: absolute;
+    right: 7px;
+    top:0;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.content{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width: 120px;
+    height: 20px;
+}

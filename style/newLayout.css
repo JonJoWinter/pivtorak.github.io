@@ -1,0 +1,124 @@
+html{height: 100%;}
+body{
+    font-size: 16px;
+    margin:0;
+    padding: 20px;
+    background: #efe;
+}
+.paranja{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    background:#666;
+    opacity: .7;
+}
+.window{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    width: 300px;
+    height: 470px;
+    border:4px solid #EC650E;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.window div.windowTitle span{
+    position: absolute;
+    right:0;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding: 1px 5px;
+}
+div.windowTitle{
+    background: #EC650E;
+    height: auto;
+}
+div.windowTitle h1{
+    color:#fff;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+div.windowContent h2{
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 14px 0 5px;
+}
+.windowContent h2,.windowContent p{
+    text-align: center;
+    font-weight: 100;
+    color:#444;
+}
+.windowContent p{
+    font-size: 68px;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, sans-serif;
+}
+.windowContent p sub, .windowContent p sup{
+    font-size: 18px;
+    font-weight: 100;
+}
+.windowContent ul{
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    padding:10px 20px;
+    color:#555;
+    position: relative;
+}
+.windowContent ul li{
+    padding: 8px 10px 8px 50px;
+    background: #efefef;
+    margin-top:1px;
+}
+.windowContent ul li:nth-child(odd){
+    background: #E6FDFF;
+}
+.windowContent ul li:before{
+    content: " ";
+    background-image: url(https://maxcdn.icons8.com/Android_L/PNG/32/User_Interface/circled_chevron_right-32.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:42px;
+    background-size: cover;
+}
+.windowContent div:last-child{
+    background: #EC650E;
+    width: 86%;
+    height:30px;
+    margin: auto;
+    border-radius: 3px;
+   box-shadow: 0px 3px 0px 0px rgba(179,70,0,1);
+}
+.windowContent div:last-child a{
+    color:#fff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 0;
+}
+.windowContent div:last-child a:hover{
+    color:#EC650E;
+    background: #efefef;
+    border: 1px solid #EC650E;
+    border-radius: 4px;
+}
+.windowContent div:last-child:hover{
+    box-shadow: none;
+}

@@ -1,0 +1,164 @@
+html{height: 100%;}
+body{
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+}
+.bestSale{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.contentBestSale{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    height: 470px;
+  //  border:1px solid #000;
+    width:900px;
+    box-sizing: border-box;
+}
+div[class="window center"]{
+     position: absolute;
+     left:0;
+     right: 0;
+     top:0;
+     bottom: 0;
+     margin:auto;
+     width: 300px;
+     height: 470px;
+     border:4px solid #EC650E;
+     border-radius: 9px;
+     background: #fff;
+     box-sizing: inherit;
+ }
+div[class="window left"]{
+     position: absolute;
+     left:0;
+     top:28px;
+     bottom: 0;
+     margin:auto;
+     width: 300px;
+     height: 470px;
+     box-sizing: inherit;
+}
+div[class="window right"]{
+    position: absolute;
+    right:0;
+    top:28px;
+    bottom: 0;
+    margin:auto;
+    width: 300px;
+    height: 470px;
+    box-sizing: inherit;
+}
+div.windowTitle{
+    height: auto;
+}
+div[class="windowTitle center"]{
+    background: #EC650E;
+}
+div[class="windowTitle left"]{
+    border-top-left-radius: 4px;
+    background: #2BC1D3;
+}
+div[class="windowTitle right"]{
+    border-top-right-radius: 4px;
+    background: #2BC1D3;
+}
+div.windowTitle h1{
+    color:#fff;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+div.windowTitle h1.left{
+    padding: 10px 0;
+}
+div.windowTitle h1.right{
+    padding: 10px 0;
+}
+.windowContent h2,.windowContent p{
+    text-align: center;
+    font-weight: 100;
+    color:#444;
+}
+.windowContent p{
+    font-size: 68px;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, sans-serif;
+}
+.windowContent p sub, .windowContent p sup{
+    font-size: 18px;
+    font-weight: 100;
+}
+.windowContent ul{
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    padding:10px 20px;
+    color:#555;
+    position: relative;
+}
+.windowContent ul li{
+    padding: 8px 10px 8px 50px;
+    background: #efefef;
+    margin-top:1px;
+}
+.windowContent ul li:nth-child(odd){
+    background: #E6FDFF;
+}
+.windowContent ul li:before{
+    content: " ";
+    background-image: url(https://maxcdn.icons8.com/Android_L/PNG/32/User_Interface/circled_chevron_right-32.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:42px;
+    background-size: cover;
+}
+.windowContent div:last-child{
+    width: 86%;
+    height:30px;
+    margin: auto;
+    border-radius: 3px;
+}
+.windowContent div:last-child{
+    background: #EC650E;
+    box-shadow: 0px 3px 0px 0px rgba(179,70,0,1);
+}
+.windowContent div.butLeft:last-child{
+    background: #2BC1D3;
+    box-shadow: 0px 3px 0px 0px rgba(22, 97, 106,1);
+}
+.windowContent div:last-child a{
+    color:#fff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 0;
+}
+.windowContent div:last-child a:hover{
+    color:#EC650E;
+    background: #fff;
+    border: 1px solid #EC650E;
+    border-radius: 4px;
+}
+.windowContent div.butLeft:last-child a:hover{
+    color:#2BC1D3;
+    border: 1px solid #2BC1D3;
+}
+.windowContent div:last-child:hover{
+    box-shadow: none;
+}
